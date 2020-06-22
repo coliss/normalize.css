@@ -79,7 +79,7 @@ Firefoxの実装では、box-sizing, padding, widthを考慮していないた�
 `-webkit-appearance: textfield`を適用することで、検索の入力欄の利点（過去の検索結果を表示するなど）を損なうことなく、これらの問題を解決できます。
 
 ## その他のCSSリセット・ノーマライズ
-[2020年、モダンブラウザに適したCSSリセットのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
+[モダンブラウザに適したCSSリセットのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
 
 ## 貢献
 
