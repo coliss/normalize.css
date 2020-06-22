@@ -75,17 +75,11 @@ Firefoxの実装では、box-sizing, padding, widthを考慮していないた�
 
 #### `[type="search"]`
 
-The search input is not fully stylable by default. In Chrome and Safari on
-OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In
-Chrome and Safari on Windows you can't control `border` properly. It will apply
-`border-width` but will only show a border color (which cannot be controlled)
-for the outer 1px of that border. Applying `-webkit-appearance: textfield`
-addresses these issues without removing the benefits of search inputs (e.g.
-showing past searches).
+デフォルトで、検索の入力欄は完全にスタイル可能ではありません。OS X/iOSのChromeとSafariでは、`font`, `padding`, `border`, `background`をコントロールできません。また、WindowsのChromeでは、`border`をコントロールできません。`border-width`は適用されますが、ボーダーの外側1px分のボーダーカラー（コントロールできません）しか表示されません。
+`-webkit-appearance: textfield`を適用することで、検索の入力欄の利点（過去の検索結果を表示するなど）を損なうことなく、これらの問題を解決できます。
 
 ## その他のCSSリセット・ノーマライズ
-2020年、モダンブラウザに適したCSSリセットのまとめ
-https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html
+[2020年、モダンブラウザに適したCSSリセットのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
 
 ## 貢献
 
