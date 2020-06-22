@@ -11,6 +11,9 @@
 [![gitter][gitter-image]][gitter-url]
 
 
+**翻訳**
+[README.md](https://github.com/coliss/normalize.css/blob/master/README.md)（本ページ）と[normalize.css](https://github.com/coliss/normalize.css/blob/master/normalize.css)を日本語に翻訳しました。
+
 **NPM**
 
 ```sh
