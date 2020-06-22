@@ -4,7 +4,7 @@
   src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
   width="80" height="80" align="right"></a>
 
-> A modern alternative to CSS resets
+> CSSリセットに代わるモダンな方法
 
 [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 [![changelog][changelog-image]][changelog-url]
@@ -26,16 +26,16 @@ See https://yarnpkg.com/en/package/normalize.css
 See https://necolas.github.io/normalize.css/latest/normalize.css
 
 
-## What does it do?
+## これは何をするの？
 
-* Preserves useful defaults, unlike many CSS resets.
-* Normalizes styles for a wide range of elements.
-* Corrects bugs and common browser inconsistencies.
-* Improves usability with subtle modifications.
-* Explains what code does using detailed comments.
+* 多くのCSSリセットとは異なり、有用なデフォルトを保持します。
+* さまざまな要素のスタイルを正規化（normalize）します。
+* バグや一般的なブラウザの不整合を修正します。
+* 精緻な修正で使い勝手を向上させます。
+* コメントで、コードが何をするのかを説明しています。
 
 
-## Browser support
+## サポートするブラウザ
 
 * Chrome
 * Edge
@@ -45,9 +45,9 @@ See https://necolas.github.io/normalize.css/latest/normalize.css
 * Opera
 
 
-## Extended details and known issues
+## 拡張されたディテールと既知の問題
 
-Additional detail and explanation of the esoteric parts of normalize.css.
+normalize.cssの難しい部分の詳細と解説を追加しました。
 
 #### `pre, code, kbd, samp`
 
