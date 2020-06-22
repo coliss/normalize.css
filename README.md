@@ -51,30 +51,27 @@ normalize.cssの難しい部分の詳細と解説を追加しました。
 
 #### `pre, code, kbd, samp`
 
-The `font-family: monospace, monospace` hack fixes the inheritance and scaling
-of font-size for preformatted text. The duplication of `monospace` is
-intentional. [Source](https://en.wikipedia.org/wiki/User:Davidgothberg/Test59).
+`font-family: monospace, monospace`は、フォーマット済みテキストのフォントサイズの継承とスケーリングを修正します。
+`monospace`の重複は意図的なものです。
+[出典](https://en.wikipedia.org/wiki/User:Davidgothberg/Test59).
 
 #### `sub, sup`
 
-Normally, using `sub` or `sup` affects the line-box height of text in all
-browsers. [Source](https://gist.github.com/413930).
+通常、`sub`や`sup`を使用すると、すべてのブラウザでテキストの行ボックスの高さに影響を与えます。
+[出典](https://gist.github.com/413930).
 
 #### `select`
 
-By default, Chrome on OS X and Safari on OS X allow very limited styling of
-`select`, unless a border property is set. The default font weight on `optgroup`
-elements cannot safely be changed in Chrome on OSX and Safari on OS X.
+デフォルトで、OS XのChromeとOS XのSafariでborderプロパティが定義されていない限り、`select`のスタイル定義が非常に制限されます。
+OS XのChromeとOS XのSafariで、`optgroup`要素のデフォルトのフォントのウェイトは安全に変更できません。
 
 #### `[type="checkbox"]`
 
-It is recommended that you do not style checkbox and radio inputs as Firefox's
-implementation does not respect box-sizing, padding, or width.
+Firefoxの実装では、box-sizing, padding, widthを考慮していないため、チェックボックスとラジオボタンのスタイルを定義しないことをお勧めします。
 
 #### `[type="number"]`
 
-Certain font size values applied to number inputs cause the cursor style of the
-decrement button to change from `default` to `text`.
+数値入力に適用されるフォントサイズの値によっては、カーソルのスタイルが`default`から`text`に変更されることがあります。
 
 #### `[type="search"]`
 
@@ -86,10 +83,13 @@ for the outer 1px of that border. Applying `-webkit-appearance: textfield`
 addresses these issues without removing the benefits of search inputs (e.g.
 showing past searches).
 
-## Contributing
+## その他のCSSリセット・ノーマライズ
+2020年、モダンブラウザに適したCSSリセットのまとめ
+https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html
 
-Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the
-contribution process easy and effective for everyone involved.
+## 貢献
+
+投稿に関わるすべての人が簡単かつ効果的に投稿できるよう、[contribution guidelines](CONTRIBUTING.md)をご覧ください。
 
 
 [changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
