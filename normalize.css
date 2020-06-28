@@ -1,11 +1,11 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/* Document
+/* ドキュメント
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 1. すべてのブラウザ用、line-heightを修正。
+ * 2. iOS用、デバイスの向きを変えた後にフォントサイズが調整されるのを防ぐ。
  */
 
 html {
@@ -13,11 +13,11 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* Sections
+/* セクション
    ========================================================================== */
 
 /**
- * Remove the margin in all browsers.
+ * すべてのブラウザ用、marginを削除。
  */
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 /**
- * Render the `main` element consistently in IE.
+ * IE用、mainをレンダリングするようにblockを定義。
  */
 
 main {
@@ -33,8 +33,7 @@ main {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
+ * Chrome, Firefox, Safari用、sectionとarticleのコンテキスト内のh1要素のfont-sizeとmarginを修正。
  */
 
 h1 {
@@ -42,12 +41,12 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* Grouping content
+/* グルーピング コンテンツ
    ========================================================================== */
 
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
+ * 1. Firefox用、正しいbox-sizingを追加。
+ * 2. EdgeとIE用、overflowを表示。
  */
 
 hr {
@@ -57,8 +56,8 @@ hr {
 }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
+ * 1. すべてのブラウザ用、フォントサイズの継承とスケーリングを修正。
+ * 2. すべてのブラウザ用、emのフォントサイズがおかしかったのを修正。
  */
 
 pre {
@@ -66,11 +65,11 @@ pre {
   font-size: 1em; /* 2 */
 }
 
-/* Text-level semantics
+/* テキストレベルのセマンティクス
    ========================================================================== */
 
 /**
- * Remove the gray background on active links in IE 10.
+ * IE 10用、アクティブなリンクのグレーの背景を削除。
  */
 
 a {
@@ -78,8 +77,8 @@ a {
 }
 
 /**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * 1. Chrome 57+用、下のボーダーを削除。
+ * 2. Chrome, Edge, IE, Opera, Safari用、正しいテキスト装飾を追加。
  */
 
 abbr[title] {
@@ -89,7 +88,7 @@ abbr[title] {
 }
 
 /**
- * Add the correct font weight in Chrome, Edge, and Safari.
+ * Chrome, Edge, Safari用、正しいfont-weightを追加。
  */
 
 b,
@@ -98,8 +97,8 @@ strong {
 }
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
+ * 1. すべてのブラウザ用、フォントサイズの継承とスケーリングを修正。
+ * 2. すべてのブラウザ用、emのフォントサイズがおかしかったのを修正。
  */
 
 code,
@@ -110,7 +109,7 @@ samp {
 }
 
 /**
- * Add the correct font size in all browsers.
+ * すべてのブラウザ用、正しいfont-sizeを追加。
  */
 
 small {
@@ -118,8 +117,7 @@ small {
 }
 
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
+ * すべてのブラウザ用、subとsup要素が行の高さい影響を与えないようにします。
  */
 
 sub,
@@ -138,23 +136,23 @@ sup {
   top: -0.5em;
 }
 
-/* Embedded content
+/* 埋め込みコンテンツ
    ========================================================================== */
 
 /**
- * Remove the border on images inside links in IE 10.
+ * IE 10用、リンクした画像のボーダーを削除。
  */
 
 img {
   border-style: none;
 }
 
-/* Forms
+/* フォーム
    ========================================================================== */
 
 /**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
+ * 1. すべてのブラウザ用、フォントスタイルを変更。
+ * 2. Firefox, Safari用、marginを削除。
  */
 
 button,
@@ -169,8 +167,8 @@ textarea {
 }
 
 /**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
+ * IE用、overflowを表示。
+ * 1. Edge用、overflowを表示。
  */
 
 button,
@@ -179,8 +177,8 @@ input { /* 1 */
 }
 
 /**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
+ * Edge, Firefox, IE用、text-transformの継承を削除。
+ * 1. Firefox用、text-transformの継承を削除。
  */
 
 button,
@@ -189,7 +187,7 @@ select { /* 1 */
 }
 
 /**
- * Correct the inability to style clickable types in iOS and Safari.
+ * iOS, Safari用、クリッカブルタイプをスタイルできない問題を修正。
  */
 
 button,
@@ -200,7 +198,7 @@ button,
 }
 
 /**
- * Remove the inner border and padding in Firefox.
+ * Firefox用、内側のborderとpaddingを削除。
  */
 
 button::-moz-focus-inner,
@@ -212,7 +210,7 @@ button::-moz-focus-inner,
 }
 
 /**
- * Restore the focus styles unset by the previous rule.
+ * 前のルールで定義されていないフォーカススタイルを復元。
  */
 
 button:-moz-focusring,
@@ -223,7 +221,7 @@ button:-moz-focusring,
 }
 
 /**
- * Correct the padding in Firefox.
+ * Firefox用、paddingを修正。
  */
 
 fieldset {
@@ -231,10 +229,9 @@ fieldset {
 }
 
 /**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
+ * 1. Edge, IE用、テキストの折り返しを修正。
+ * 2. IE用、fieldset要素からのカラーの継承を修正。
+ * 3. すべてのブラウザ用、paddingを削除してfieldset要素をゼロにした時に引っ掛からないようにします。
  */
 
 legend {
@@ -247,7 +244,7 @@ legend {
 }
 
 /**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ * Chrome, Firefox, Opera用、正しいvertical-alignを追加。
  */
 
 progress {
@@ -255,7 +252,7 @@ progress {
 }
 
 /**
- * Remove the default vertical scrollbar in IE 10+.
+ * IE 10+用、デフォルトの垂直スクロールバーを削除。
  */
 
 textarea {
@@ -263,8 +260,8 @@ textarea {
 }
 
 /**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
+ * 1. IE 10用、正しいbox-sizingを追加。
+ * 2. IE 10用、paddingを削除。
  */
 
 [type="checkbox"],
@@ -274,7 +271,7 @@ textarea {
 }
 
 /**
- * Correct the cursor style of increment and decrement buttons in Chrome.
+ * Chrome用、増減ボタンのカーソルスタイルを修正。
  */
 
 [type="number"]::-webkit-inner-spin-button,
@@ -283,8 +280,8 @@ textarea {
 }
 
 /**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
+ * 1. Chrome, Safari用、appearanceがおかしいので修正。
+ * 2. Safari用、outlineのスタイルを修正。
  */
 
 [type="search"] {
@@ -293,7 +290,7 @@ textarea {
 }
 
 /**
- * Remove the inner padding in Chrome and Safari on macOS.
+ * macOSのChrome, Safari用、内側のpaddingを削除。
  */
 
 [type="search"]::-webkit-search-decoration {
@@ -301,8 +298,8 @@ textarea {
 }
 
 /**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
+ * 1. iOS, Safari用、クリッカブルタイプをスタイルできない問題を修正。
+ * 2. Safari用、fontのプロパティをinheritに変更。
  */
 
 ::-webkit-file-upload-button {
@@ -310,11 +307,11 @@ textarea {
   font: inherit; /* 2 */
 }
 
-/* Interactive
+/* インタラクティブ
    ========================================================================== */
 
 /*
- * Add the correct display in Edge, IE 10+, and Firefox.
+ * Edge, IE 10+, Firefox用、正しいdisplayを追加。
  */
 
 details {
@@ -322,18 +319,18 @@ details {
 }
 
 /*
- * Add the correct display in all browsers.
+ * すべてのブラウザ用、正しいdisplayを追加。
  */
 
 summary {
   display: list-item;
 }
 
-/* Misc
+/* その他
    ========================================================================== */
 
 /**
- * Add the correct display in IE 10+.
+ * IE 10+用、正しいdisplayを追加。
  */
 
 template {
@@ -341,7 +338,7 @@ template {
 }
 
 /**
- * Add the correct display in IE 10.
+ * IE 10用、正しいdisplayを追加。
  */
 
 [hidden] {
